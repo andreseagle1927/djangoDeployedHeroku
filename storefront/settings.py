@@ -86,25 +86,25 @@ WSGI_APPLICATION = 'storefront.wsgi.application'
 
 
 
-"""DATABASES = {
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'labase',
-        'USER': 'postgres',
-        'PASSWORD': 'Andresdavid25',
-        'HOST': 'localhost',
+        'NAME': 'd43c36lso4fn9l',
+        'USER': 'rrhfewqwevmbuj',
+        'PASSWORD': 'c46256170e935f7ce75758cec04e2be2cd8542951bd579dbbc2b11f0d64462a8',
+        'HOST': 'ec2-44-205-41-76.compute-1.amazonaws.com',
         'PORT': '5432',
     }
-}""" 
+}
 
-import dj_database_url
+"""import dj_database_url
 from decouple import config
 
 DATABASES = {
 	'default': dj_database_url.config(
 		default = config('DATABASE_URL')
 	)
-}
+}"""
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
